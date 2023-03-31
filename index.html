@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TodoMVC</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <h1>todos</h1>
+    <div class="display-container">
+        <div class = "task-container">
+            <button type="button" id="checkbox-all" class="hidden">🔽</button>
+            <form id="task-form">
+                <input type="text" id="list-input" placeholder="What needs to be done?" class="my-input" required>
+                <button type="submit" class="hidden"></button>
+            </form>
+        </div>
+        <div class="todo-container">
+            <ul id="generated-List">
+            </ul>
+        </div>
+        <div class="button-container">
+            <p id="amount"></p>
+            <div class="flexInFlex">
+                <button type="button" id="show-all">Show all</button>
+                <button type="button" id="show-active">Show active</button>
+                <button type="button" id="show-completed">Show completed</button>
+            </div>
+            <button type="button" id="clear-completed">Clear completed</button>
+        </div>
+    </div>
+</body>
+</html>

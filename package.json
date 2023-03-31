@@ -1,0 +1,21 @@
+{
+  "name": "frontend-task3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MMastromonaco/Frontend-Task3.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MMastromonaco/Frontend-Task3/issues"
+  },
+  "homepage": "https://github.com/MMastromonaco/Frontend-Task3#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.31.1"
+  }
+}
